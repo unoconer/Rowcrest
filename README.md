@@ -8,7 +8,7 @@ office in Fresno, California. It's static with no dependencies, built with Node 
 
 ```bash
 node build.mjs          # builds ./dist; checks internal links; lists missing info
-STRICT=1 node build.mjs # pre-launch check (fails while the address placeholders remain)
+STRICT=1 node build.mjs # pre-launch check
 ```
 
 ## Deploy to Netlify
@@ -30,11 +30,11 @@ STRICT=1 node build.mjs # pre-launch check (fails while the address placeholders
 
 Plus `/privacy-policy/`, `/terms/` and `/disclosures/` (California law, CCPA/CPRA), `/thank-you/` and `404.html`.
 
-## Office address (placeholder)
+## Office address
 
-Rowcrest is set up as a **storefront office** (`locationType: 'office'`). Until
-`business.address.streetAddress` and `postalCode` are filled in, pages show yellow
-`[Street address — to be provided]` and `[ZIP]` tags, and no storefront schema or map is output.
+Rowcrest is a **storefront office** (`locationType: 'office'`) at **1306 W Herndon Ave, Fresno,
+CA 93711**. The address shows on the homepage card, About, Contact (with a map) and the footer,
+with storefront structured data. Keep it identical to the Google Business Profile.
 
 ## Design
 

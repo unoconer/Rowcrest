@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // [REQUIRED] e.g. "1234 Example St, Suite 200" — real, staffed office only
+      streetAddress: '1306 W Herndon Ave', // real, staffed office
       addressLocality: 'Fresno',
       addressRegion: 'CA',
-      postalCode: null, // [REQUIRED]
+      postalCode: '93711',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only
